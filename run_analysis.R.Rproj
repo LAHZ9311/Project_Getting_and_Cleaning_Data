@@ -6,6 +6,9 @@ if (!file.exists('./UCI HAR Dataset.zip')){
 }
 
 
+
+#### step by step
+
 features <- read.csv('./UCI HAR Dataset/features.txt', header = FALSE, sep = ' ')
 features <- as.character(features[,2])
 
